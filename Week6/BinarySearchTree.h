@@ -16,6 +16,8 @@ private:
 
     // make a node ptr for root node
     Node* root;
+    
+    int counter = 0;
 
     // method to insert 
     Node* insert(Employee e, Node* root)
