@@ -18,9 +18,8 @@ void BinarySearchTree::inorder(Node* root) {
 
 // return count of employee's
 int BinarySearchTree::count(Node* root) {
-    int counter = 0;
     if (root == NULL) {
-        return 0;
+        return count;
     }
 
     //itereat throught left subtree and right sub tree
